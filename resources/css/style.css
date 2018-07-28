@@ -169,12 +169,16 @@ body {
 .about {
 	display: inline-flex;
 	width: 100%;
+	justify-content: center;
 }
 
 .information {
 	width: 35%;
 	height: auto;
 	padding: 0px 5%;
+	display: inline-flex;
+	
+	flex-direction: column;
 }
 
 .information h2 {
@@ -184,6 +188,35 @@ body {
 	font-weight: bold;
 	padding: 0.5rem 1.25rem;
 	margin: 0px;
+	width: 10rem;
+}
+
+.information p {
+	margin-top: 1rem;
+}
+
+
+
+
+	/*  FOOTER  */
+
+.footer {
+	background-color: azure;
+	margin-top: 5rem;
+	padding: 4rem;
+	display: block;
+}
+
+.footer img {
+	height: 1.5rem;
 	width: auto;
+	display: inline-flex;
+	vertical-align: middle;
+}
+
+.footer p {
+	padding-left: 1rem;
+	margin: 0px;
+	display: inline-flex;
 }
 
