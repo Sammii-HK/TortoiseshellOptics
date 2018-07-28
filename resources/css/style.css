@@ -39,14 +39,7 @@ body {
 	width: 960px;
 	margin-top: 1rem;
 	position: fixed;
-	z-index: 10;
-	
-	/*margin-left: auto;
-	margin-right: auto;
-	
-	justify-content: center;
-	align-content: center;*/
-	
+	z-index: 10;	
 }
 
 .top-nav img {
@@ -76,7 +69,7 @@ body {
 	text-decoration: none;
 }
 
-
+	/*  MAIN BANNER  */
 
 .main-banner {
 	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
@@ -93,10 +86,6 @@ body {
 	width: 1032px;
 	display: inline-flex;
 	justify-content: flex-end;
-	
-	
-	/*margin-left: auto;
-	margin-right: auto;*/
 	margin:  0 auto;
 	
 }
@@ -113,3 +102,88 @@ body {
 	margin: 0px;
 	width: auto;
 }
+
+
+
+	/*  DETAILS  */
+
+.details {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.icons {
+	display: inline-flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.exams {
+	height: 8rem;
+	width: 5rem;
+	margin: 3rem 3rem;
+	text-align: center;
+	
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.exams img {
+	width: 3.5rem;
+	height: auto;
+}
+
+.fittings {
+	height: 8rem;
+	width: 5rem;
+	margin: 3rem 3rem;
+	text-align: center;
+}
+
+.fittings img {
+	width: 5rem;
+	height: auto;
+	padding-top: 0.85rem;
+}
+
+.delivery {
+	height: 8rem;
+	width: 5rem;
+	padding: 3rem 3rem;
+	text-align: center;
+}
+
+.delivery img {
+	width: 5rem;
+	height: auto;
+	padding-top: 0.7rem;
+}
+
+
+
+	/*  ABOUT  */
+
+.about {
+	display: inline-flex;
+	width: 100%;
+}
+
+.information {
+	width: 35%;
+	height: auto;
+	padding: 0px 5%;
+}
+
+.information h2 {
+	background-color: cadetblue;
+	color: snow;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 1.25rem;
+	margin: 0px;
+	width: auto;
+}
+
