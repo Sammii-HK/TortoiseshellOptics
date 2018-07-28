@@ -276,9 +276,18 @@ body {
 		display: none;
 	}
 	
+	.top-nav p {
+		display: none;
+	}
+	
 	.menu {
 		display: flex;
 		float: right;
+		
+		margin: auto;
+		justify-content: center;
+		align-items: center;
+		vertical-align: middle;
 	}
 	
 	.main-banner {
@@ -320,5 +329,44 @@ body {
 		margin: 0px;
 		padding: 0px;
 		height: auto;
+	}
+	
+	.about {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.information {
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.information h2 {
+		width: 100%;
+		padding: 1rem 0px;
+		text-align: center;
+	}
+	
+	.information p {
+		width: 95%;
+		margin: auto;
+		padding-top: 1rem;
+		padding-bottom: 4rem;
+	}
+	
+	.footer {
+		margin: 0px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.footer p {
+		display: none;
+	}
+	
+	.footer img {
+		
+		
 	}
 }
